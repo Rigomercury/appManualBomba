@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SECCION1: MODULOS"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btnCables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CABLES" />
+
+    <Button
+        android:id="@+id/btnBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EL BOTON" />
+
+    <Button
+        android:id="@+id/btnTeclados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TECLADOS" />
+
+    <Button
+        android:id="@+id/btnSimon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMON DICE" />
+
+    <Button
+        android:id="@+id/btnPrimero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIEN VA PRIMERO" />
+
+    <Button
+        android:id="@+id/btnMemoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEMORIA" />
+
+    <Button
+        android:id="@+id/btnMorse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CODIGO MORSE" />
+    <Button
+        android:id="@+id/btnComplicados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CABLES COMPLICADOS" />
+
+    <Button
+        android:id="@+id/btnSequencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEQUENCIA DE CABLES" />
+
+    <Button
+        android:id="@+id/btnLaberintos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LABERINTOS" />
+    <Button
+        android:id="@+id/btnContraseñas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTRASEÑAS" />
+
+
+</LinearLayout>
